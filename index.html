@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Honey Bee Quiz</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+          <div class="col-sm-6"> <!--various possibilities for this class-->
+            <form>
+
+              <h1>Honey Bee Quiz</h1>
+
+              <div class="form-group">
+              <p>Honey bees are known for their ability to build nests from wax, form large colonies and their production and storage of honey. Honey bees are extremely important to humans because they pollinate many of our food crops. Take the quiz and test your honey bee knowledge!</p>
+              <a href="https://en.wikipedia.org/wiki/Honey_bee#Genetics">Link to Wikipedia article</a>
+              </div>
+
+              <div class="form-group">
+                <label class="form-control-label" for="study">What is the study of honey bees known as?</label>
+                <input class="form-control" type="text" name="melittology" id="study">
+              </div> <!--text field-->
+
+              <div class="form-group">
+                <label class="form-control-label" for="genus_name">The genus name Apis is latin for what?</label>
+                <input class="form-control" type="text" name="bees" id="genus_name">
+              </div> <!--text field-->
+
+              <div class="form-group">
+                <label class="form-control-label" for="best_known">What is the best known honey bee and why has it been domesticated?</label>
+                <textarea class="form-control" name="western_bee" id="best_known" rows="3"></textarea>
+              </div> <!--text area field-->
+
+              <div class="form-group">
+                <label class="form-control-label">The only domesticated species of honey bee are A. mellifera and:</label>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="species" value="dorsata">
+                  <label class="form-check-label"> A. dorsata </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="species" value="koschevnikovi">
+                  <label class="form-check-label"> A. koschevnikovi </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="species" value="cerana">
+                  <label class="form-check-label"> A. cerana </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="species" value="labriosa">
+                  <label class="form-check-label"> A. d. laboriosa </label>
+                </div>
+              </div> <!--radio buttons-->
+
+              <div class="form-group">
+                <label class="form-control-label">Where do honey bees appear to have their center of origin? Check all that apply.</label>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" name="origin1" value="southAsia">
+                  <label class="form-check-label"> South Asia </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" name="origin2" value="southwestAsia">
+                  <label class="form-check-label"> Southwest Asia </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" name="origin3" value="westAsia">
+                  <label class="form-check-label"> West Asia </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" name="origin4" value="southeastAsia">
+                  <label class="form-check-label"> Southeast Asia </label>
+                </div>
+              </div> <!--checkboxes-->
+
+              <div class="form-group">
+                <label class="form-control-label">How many chromosome counts do male bees have?</label>
+                <select class="form-control" size="6">
+                  <option value="2">2 N</option>
+                  <option value="1">1 N</option>
+                  <option value="16">16 N</option>
+                  <option value="10">10 N</option>
+                  <option value="32">32 N</option>
+                  <option value="8">8 N</option>
+                </select>
+              </div> <!--select element-->
+
+              <div class="form-group">
+              <button type="submit" value="Submit" class="btn btn-primary">Submit Answers</button>
+              <button type="reset" value="Start Over" class="btn btn-secondary">Start Over</button>
+              </div>
+
+            </form>
+          </div> <!-- end column -->
+      </div> <!-- end row -->
+    </div><!-- container -->
+
+  </body>
+</html>
